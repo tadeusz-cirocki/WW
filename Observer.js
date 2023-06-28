@@ -13,7 +13,7 @@ na podstawie zmian statusu dostawy.
 ES5 syntax
 
 Run:
-node .\Observer.js
+node .\observer.js
 */
 
 
@@ -74,7 +74,7 @@ deliveryService.removeObserver(smsNotification);
 deliveryService.updateStatus('Returned');
 
 /*
-node .\Observer.js
+node .\observer.js
 Email notification: Package status is now "Delivered".
 SMS notification: Package status is now "Delivered".
 Email notification: Package status is now "Returned".
