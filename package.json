@@ -1,0 +1,18 @@
+{
+  "name": "ww",
+  "version": "1.0.0",
+  "description": "1. zaimplementuj wzorzec obserwatora, dekoratora i fasady - definicja z przykładem użycia + prośba o rozwiązania w tematyce naszego projektu (transport)\r 2. opcjonalnie do 1. po jednym wzorcu osobno dla ES5 , ES6 , TypeScript\r 3. załóżmy, że mamy do czynienia z asynchronicznym pobieraniem danych z dwóch niezależnych od siebie źródeł (source-one, source-two) - jak optymalnie zaimplmentować taką funkcjonalność używając async + await, oraz Promise\r 4. express.js - napisz middleware do autentykacji - standard do wyboru (JWT, OAuth, inne)\r 5. co to jest Event Emitter ?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
